@@ -1,5 +1,4 @@
 import 'dart:ffi';
-
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -11,6 +10,7 @@ import 'package:hotel/widgets/big_text.dart';
 import 'package:hotel/utils/dimensions.dart';
 import 'package:hotel/widgets/icon_and_text_widget.dart';
 import 'package:hotel/widgets/small_text.dart';
+import 'package:get/get.dart';
 
 class FoodPageBody extends StatefulWidget {
   const FoodPageBody({Key? key}) : super(key: key);
@@ -148,7 +148,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              BigText(text: "Fruit ~ meal"),
+                               BigText(text: "Fruit ~ meal"),
                               SizedBox(
                                 height: Dimensions.height10,
                               ),
@@ -259,3 +259,5 @@ class _FoodPageBodyState extends State<FoodPageBody> {
     );
   }
 }
+//end of code
+
